@@ -1,0 +1,25 @@
+.f1{
+    margin-top:2%;
+}
+.heading{
+    margin:2% 0% 2% 5.5%;
+    font-size: 25px;
+}
+.btn{
+    width: 25%;
+    margin-left: 2%;
+}
+.stack{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:2%;
+}
+.Card{
+    max-width: 200px;
+    overflow-x: hidden;
+    margin-bottom: 2%;
+    padding-right:2%;
+}
+.content{
+    max-height: 50px;
+}
