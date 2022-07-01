@@ -7,7 +7,7 @@ import { db } from "../firebase";
 import { uid } from "uid";
 import { useSelector, useDispatch } from 'react-redux';
 import { upDate } from '../store/Data';
-import { set, ref, onValue, remove, update } from "firebase/database";
+import { set, ref, update } from "firebase/database";
 const CreateNote=()=>{
   const dispatch = useDispatch();
     const notes = useSelector((state) => state);

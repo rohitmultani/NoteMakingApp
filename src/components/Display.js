@@ -10,12 +10,11 @@ import Typography from '@mui/material/Typography';
 import ModeEditIcon from '@mui/icons-material/ModeEdit';
 import classes from "./Create.module.css"
 import {Link} from "react-router-dom";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { upDate } from '../store/Data';
 import { db } from "../firebase";
-import { uid } from "uid";
-import { set, ref, onValue, remove, update } from "firebase/database";
+import { ref, remove} from "firebase/database";
 
 
 
