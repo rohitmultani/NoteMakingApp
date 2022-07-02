@@ -9,7 +9,7 @@ import {
 import { Provider } from 'react-redux';
 import store from './store/Data';
 import Home from './pages/Home';
-import Learn from './pages/Learn';
+// import Learn from './pages/Learn';
 function App() {
   return (
     <Fragment>
@@ -17,7 +17,7 @@ function App() {
        <BrowserRouter>
     <Routes>
     <Route path="/" element={<Home />} />
-      <Route path="/:id" element={<Learn />} />
+      {/* <Route path="/:id" element={<Learn />} /> */}
       </Routes>
   </BrowserRouter>
     </Provider>
