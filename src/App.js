@@ -14,13 +14,13 @@ function App() {
   return (
     <Fragment>
        <Provider store={store}>
-       <BrowserRouter>
+       {/* <BrowserRouter> */}
     <Routes>
     {/* <Home/> */}
     <Route path="/" element={<Home />} />
       <Route path="/:id" element={<Learn />} />
       </Routes>
-  </BrowserRouter>
+  {/* </BrowserRouter> */}
     </Provider>
     </Fragment>
   )
