@@ -23,7 +23,7 @@ const Cards = () => {
     <Fragment>
       <Stack direction="row" spacing={1} className={classes.stack}>
         {notes.map((note) => (
-          <Display notes={note} />
+          <Display notes={note} key={Math.random()}/>
         ))}
       </Stack>
     </Fragment>

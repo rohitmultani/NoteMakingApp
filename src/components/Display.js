@@ -33,7 +33,7 @@ const Display=(props)=> {
       <Card variant="outlined" className={classes.Card}>
       <CardContent >
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-      {props.notes.title}
+      {/* {props.notes.title} */}
       </Typography>
       <Typography variant="body2" className={classes.content}>
       {props.notes.detail}
